@@ -17,11 +17,7 @@
     "autoload": {
         "psr-4": {
             "Dalmolin\\Historiable\\": "src/"
-        },
-
-        "files": [
-            "src/functions.php"
-        ]
+        }
     },
 
     "autoload-dev": {
