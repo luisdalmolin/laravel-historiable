@@ -14,8 +14,10 @@ Easily keep history of your Laravel models.
 ## Installation
 
 ```
-$ composer require luisdalmolin/laravel-historiable:"0.5.*"
+$ composer require luisdalmolin/laravel-historiable:"0.1.*"
 ```
+
+***
 
 ### License
 
