@@ -47,12 +47,10 @@ class History extends Model
 
     public function getObjectAttribute()
     {
-        if ($this->historiableModel) {
-            return $this->historiableModel;
+        if (! $this->historiableModel) {
+            $this->historiableModel = new $this->model;
+            $this->historiableModel->forceFill($this->data);
         }
-
-        $this->historiableModel = new $this->model;
-        $this->historiableModel->forceFill($this->data);
 
         return $this->historiableModel;
     }
