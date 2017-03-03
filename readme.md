@@ -2,6 +2,21 @@
 
 Easily keep history of your Laravel models.
 
-### Installation
+## This package is still in dev mode.
 
-This package is still in dev mode.
+## Version Compatibility
+
+ Laravel  | laravel-historiable
+:---------|:----------
+ 5.4.x    | 0.1.x
+
+
+## Installation
+
+```
+$ composer require luisdalmolin/laravel-historiable:"0.5.*"
+```
+
+### License
+
+See [License](https://github.com/EscapeWork/Frete/blob/master/LICENSE)
