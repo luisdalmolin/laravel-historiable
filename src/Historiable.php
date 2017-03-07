@@ -11,14 +11,10 @@ trait Historiable
      */
     public static function bootHistoriable()
     {
-        static::saving(function($model) {
+        static::updating(function($model) {
             $model->history()->create([
                 'data' => $model->toHistoriableArray()
             ]);
-        });
-
-        static::deleting(function($model) {
-            // do it
         });
     }
 
