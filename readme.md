@@ -2,8 +2,6 @@
 
 Easily keep history of your Laravel models.
 
-## This package is still in dev mode.
-
 ## Version Compatibility
 
  Laravel  | laravel-historiable
@@ -16,6 +14,8 @@ Easily keep history of your Laravel models.
 ```
 $ composer require luisdalmolin/laravel-historiable:"0.1.*"
 ```
+
+## Usage
 
 ***
 
